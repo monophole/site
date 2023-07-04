@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(./city-dubai-cityscape-blue-wallpaper-thumb.jpg) no-repeat center/cover;
+}
+.navbar{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: white;
+    flex: 1;
+}
+.collection{
+    display: flex;
+    gap: 30px;
+}
+.item{
+    list-style: none;
+    color: white;
+}
+.text{
+    color: rgb(29, 163, 107);
+    margin-top: 80px;
+    margin-left: 10%;
+}
+.title{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10%;
+
+}
+.lorem{
+    margin-top: 30px;
+    margin-left: 10%;
+    color: white;
+}
+.btn{
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 10%;
+    padding: 10px;
+    background:  rgb(29, 163, 107);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.call{
+    width: 100%;
+    height: 120px;
+    background: rgb(29, 163, 107);
+    margin-top: 160px;
+}
+.request{
+    margin-left: 5%;
+    color: white;
+    padding-top: 30px;
+   
+}
+.topic{
+    margin-left: 5%;
+    color: white;
+    padding-top: 10px;
+    display: flex
+}
+.contact{
+    display:flex;
+}
+.btnn{
+    width: 160px;
+    margin-bottom: 30px;
+    margin-left: 80%;
+    padding: 10px;
+    background: rgb(29, 163, 107);
+    color:white;
+    border-radius: 20px;
+    border: 1px solid white;
+}

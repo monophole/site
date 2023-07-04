@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    color: red;
+    transition: .5s;
+}
+.title:hover{
+    color: blue;
+   font-size: 36px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* davomiyligi */
+    transition-duration: 1s;
+    /* kechiktirish vaqti */
+    transition-delay: 0;
+    /* hossasi */
+    transition-property: all;
+    /* holati */
+    transition-timing-function: linear;
+}
+.box:hover{
+    margin-left: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+.btn{
+    margin: 40px;
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    /* short hand */
+    /* duration-timing-delay-property */
+    transition: 0.5s linear 0.3s all;
+}
+.btn:hover{
+    background: white;
+    color: dodgerblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(./08_50_43_e3c5ba162b284348f00c7edd5bc9f856.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.banner h1{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 150px;
+}
+
+#matn{
+    color: coral;
+}
+
+.text{
+    color: gold;
+}
+
+h3{
+    color:red !important;
+    text-align: center;
+    color: blue;
+}
